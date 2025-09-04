@@ -196,14 +196,14 @@ h3{
             justify-content: center;
         }
 
-        .iframe-contenedor {
+        .iframe-container {
     position: relative; /* Permite posicionar el iframe dentro */
     overflow: hidden; /* Oculta cualquier contenido que se salga del contenedor */
     padding-top: 56.25%; /* Mantiene la relación de aspecto (ej: 16:9 para videos) */
     height: 0; /* La altura será manejada por el padding */
 }
 
-.iframe-contenedor iframe {
+.iframe-container iframe {
     position: absolute; /* Posiciona el iframe dentro del contenedor */
     top: 0;
     left: 0;
