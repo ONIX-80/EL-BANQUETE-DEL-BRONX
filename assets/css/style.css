@@ -196,20 +196,19 @@ h3{
             justify-content: center;
         }
 
-        .iframe-container {
-    position: relative; /* Permite posicionar el iframe dentro */
-    overflow: hidden; /* Oculta cualquier contenido que se salga del contenedor */
-    padding-top: 90%; /* Mantiene la relación de aspecto (ej: 16:9 para videos) */
-    height: 0; /* La altura será manejada por el padding */
+    .map-responsive {
+    overflow: hidden;
+    padding-bottom: 56.25%; /* Proporción 16:9 para un mapa responsivo */
+    position: relative;
+    height: 0;
 }
 
-.iframe-container iframe {
-    position: absolute; /* Posiciona el iframe dentro del contenedor */
-    top: 0;
+.map-responsive iframe {
     left: 0;
-    width: 100%; /* Ocupa el 100% del ancho del contenedor */
-    height: 100%; /* Ocupa el 100% del alto del contenedor */
-    border: none; /* Elimina el borde por defecto del iframe */
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
 }
 
 
