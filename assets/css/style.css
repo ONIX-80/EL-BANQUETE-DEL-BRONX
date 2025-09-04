@@ -1,0 +1,219 @@
+/* === General === */
+
+body{
+	padding-top: 50px;
+	background: url('../img/texture.png') top left repeat;
+}
+
+.wrap{
+	padding-top: 50px;
+	padding-bottom:50px;
+}
+
+.header-section{
+	text-align: center;
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizelegibility;	
+}
+
+h1{
+	font-family: 'graduate', cursive;
+}
+h1 {
+  color: whitesmoke; /* Color Base */
+  transition: color 0.3s ease; /* Transición suave de 0.3 segundos */
+}
+
+/* Estilo del título al pasar el mouse */
+h1:hover {
+  color: orangered; /* El color cambia a naranja al pasar el mouse */
+}
+
+
+h2{
+	font-family: 'pacifico', cursive;
+}
+
+h3{
+	font-family: 'graduate', cursive;
+	text-align: center;
+}
+
+/* === Title === */
+
+#title-enroll .jumbotron{
+	background: url('../img/ciudad.png') 50% 0 no-repeat fixed;
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizelegibility;
+	text-align: center;
+	color: whitesmoke;
+}
+
+/*  === What will you know? === */
+
+#what-learn {
+	text-align: center;
+}
+
+/* === Our Commitment === */
+
+#course-target{
+	background-color: #bf6b11;
+	color: white;
+}
+
+/* === Who We Are === */
+
+#course-features{
+	background-color: black;
+	text-align: center;
+}
+
+#course-features i{
+	margin-top: 20px;
+}
+
+
+/* === Our Representative === */
+
+#instructor .left-side{
+	text-align: center;
+}
+
+.badge.social{
+	background: #95A5A6;
+	font-size: 20px;
+	height: 35px;
+	width: 35px;
+	text-align: center;
+	line-height: 35px;
+	margin-top: 5px;
+	padding: 0;
+	-webkit-border-radius: 35px;
+	-moz-border-radius: 35px;
+	border-radius: 35px;
+	color: white;
+}
+
+.badge.social.twitter:hover{
+	background: #55ACEE;
+}
+
+.badge.social.linkedin:hover{
+	background: #4875b4;
+}
+
+.badge.social.blog:hover{
+	background: #26c281;
+}
+
+
+/* === Promotional Video === */
+
+#promo-video {
+	background: #120f17;
+	color:white;
+}
+
+/* === Footer === */
+
+#footer{
+	padding: 20px;
+	background: #22313f;
+	color: white;
+}
+
+#footer a{
+	color: #f5ab35;
+}
+
+#footer a:hover{
+	color: #f9690e;
+}
+
+
+/* *** lecture.html *** */
+
+/* === DISCUSSIONS === */
+
+#discussions{
+	background: white;
+}
+
+#discussions #btn-form, #discussions #btn-form-answer{
+	text-align: right;
+	margin-top: 5px;
+}
+
+/* *** admin_course.html *** */
+
+/* === ADMIN COURSE === */
+
+#admin-course .container{
+	background: white;
+	min-height: 600px;
+}
+
+#admin-course .panel-heading a{
+	color:white;
+}
+
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 37%;
+      margin: auto;
+  }
+
+
+.modal-dialog.modal-sm {
+  max-width: 300px; /* Tamaño del modal */
+  margin: 1.75rem auto;
+}
+
+/* Estilos básicos para el botón WhatsApp */
+        .whatsapp-link {
+            position: fixed; /* Posición fija */
+            bottom: 20px; /* Distancia desde abajo */
+            right: 20px; /* Distancia desde la derecha */
+            z-index: 1000; /* Asegura que esté por encima de otros elementos */
+            text-decoration: none; /* Quita el subrayado del enlace */
+        }
+
+        .whatsapp-link img,
+        .whatsapp-link i {
+            width: 60px; /* Tamaño del icono */
+            height: 60px;
+            border-radius: 50%; /* Para un botón circular */
+            box-shadow: 0 0 10px rgba(0,0,0,0.2); /* Sombra suave */
+        }
+
+        /* Estilo para el icono de Font Awesome */
+        .whatsapp-link i.fab {
+            color: #25d366; /* Color verde de WhatsApp */
+            font-size: 40px; /* Tamaño del icono */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .iframe-container {
+				  /* Estilos para el contenedor, por ejemplo, para hacerlo responsivo */
+				  position: relative; /* Importante para posicionar el iframe */
+				  overflow: hidden; /* Oculta el contenido que se salga */
+				  padding-top: 0%; /* Mantiene la relación de aspecto (ej. 16:9) */
+				}
+
+				.iframe {
+				  position: absolute; /* Posiciona el iframe dentro del contenedor */
+				  top: 0;
+				  left: 0;
+				  width: 100%;
+				  height: 100%;
+				  border: 1px solid #ccc; /* Estilo del borde del iframe */
+				  margin: 10px; /* Margen alrededor del iframe */
+				  box-shadow: 5px 5px 10px rgba(0,0,0,0.5); /* Sombra para destacar */
+				}
+
+
+
+
