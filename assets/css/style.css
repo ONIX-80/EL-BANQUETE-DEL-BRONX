@@ -165,11 +165,6 @@ h3{
   }
 
 
-.modal-dialog.modal-sm {
-  max-width: 300px; /* Tamaño del modal */
-  margin: 1.75rem auto;
-}
-
 /* Estilos básicos para el botón WhatsApp */
         .whatsapp-link {
             position: fixed; /* Posición fija */
