@@ -199,7 +199,7 @@ h3{
         .iframe-container {
     position: relative; /* Permite posicionar el iframe dentro */
     overflow: hidden; /* Oculta cualquier contenido que se salga del contenedor */
-    padding-top: 56.25%; /* Mantiene la relación de aspecto (ej: 16:9 para videos) */
+    padding-top: 90%; /* Mantiene la relación de aspecto (ej: 16:9 para videos) */
     height: 0; /* La altura será manejada por el padding */
 }
 
