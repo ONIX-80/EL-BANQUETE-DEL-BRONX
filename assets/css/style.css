@@ -7,7 +7,7 @@ body{
 
 .wrap{
 	padding-top: 50px;
-	padding-bottom:50px;
+	padding-bottom: 50px;
 }
 
 .header-section{
@@ -95,15 +95,15 @@ h3{
 	color: white;
 }
 
-.badge.social.twitter:hover{
+.badge.social.twitter: hover{
 	background: #55ACEE;
 }
 
-.badge.social.linkedin:hover{
+.badge.social.linkedin: hover{
 	background: #4875b4;
 }
 
-.badge.social.blog:hover{
+.badge.social.blog: hover{
 	background: #26c281;
 }
 
@@ -112,7 +112,7 @@ h3{
 
 #promo-video {
 	background: #120f17;
-	color:white;
+	color: white;
 }
 
 /* === Footer === */
@@ -127,7 +127,7 @@ h3{
 	color: #f5ab35;
 }
 
-#footer a:hover{
+#footer a: hover{
 	color: #f9690e;
 }
 
@@ -155,7 +155,7 @@ h3{
 }
 
 #admin-course .panel-heading a{
-	color:white;
+	color: white;
 }
 
 .carousel-inner > .item > img,
